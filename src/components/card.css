@@ -1,0 +1,127 @@
+.cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+
+
+.projectPrev {
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 25px;
+    width: 450px;
+    
+    
+    
+}
+.infoTitle {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    color: gold;
+
+}
+.infoText {
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    text-align: center;
+    
+
+}
+
+.projectH1 {
+    font-family: 'Space Mono', monospace;
+}
+
+.dropdownContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+a {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Roboto Serif', serif;
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 2;
+    margin-right: 20%;
+}
+
+.card {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.projectDropdown {
+    background-color: gold;
+    border: none;
+    color: black;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: 'Roboto Serif', serif;
+    }
+    @keyframes glowing {
+        0% {
+          background-color: gold;
+          box-shadow: 0 0 3px gold;
+        }
+        50% {
+          background-color: rgb(202, 173, 9);
+          box-shadow: 0 0 10px rgb(202, 173, 9);
+        }
+        100% {
+          background-color: rgb(138, 118, 6);
+          box-shadow: 0 0 3px rgb(138, 118, 6);
+        }
+      }
+    .projectDropdown {
+    animation: glowing 2000ms infinite;
+    }
+
+
+
+@media only screen and (max-width: 768px){
+   
+    .cardWrapper {
+        max-width: 100%;
+    }
+
+}

@@ -96,7 +96,7 @@
     }
     
     .title {
-        font-size: 40px;
+        font-size: 45px;
         margin-left: 100px;
         
     }
@@ -116,6 +116,8 @@
         margin-left: 10px;
         align-items: center;
     }
+
+    
 
 
 }
