@@ -52,7 +52,7 @@ export default function Card() {
                             
                             <div className='buttonContainer'>
                                 <a type="submit" href={project.siteLink} >Live Site</a>
-                                <a type="submit" href={project.githubLink}>Github Repo</a>
+                                <a type="submit" href={project.githubLink}>Github</a>
                                 
                             </div>
                             

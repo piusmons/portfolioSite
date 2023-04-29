@@ -122,6 +122,52 @@ a {
    
     .cardWrapper {
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
+    .projectH1 {
+        font-size: 20px;
+    }
+
+    .projectDropdown {
+        font-size: 10px;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    
+    a {
+        text-align:left;
+        height: 8px;
+        width: 50px;
+        padding: 10px;
+        font-size: 11px;
+
+        
+        
+        
+    }
+    .projectPrev {
+        height: 75%;
+        width: 75%;
+    }
+
+    .infoContainer {
+        margin: 0 0 0 0;
+    }
+
+    .infoText {
+        font-size: 12px;
+        margin-left: 35px;
+        margin-right: 35px;
+
+    }
+
+    .infoTitle {
+        font-size: 16px;
+    }
 }

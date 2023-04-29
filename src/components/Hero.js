@@ -14,7 +14,7 @@ export default function Hero() {
                 <p className='subTitle'>Web Developer💻 Cat lover 🐱  life long learner 📚  gamer 🎮 </p>
                 <ul className='myLinkUl'>
                     <li className='myLink'>
-                        <BsLinkedin style={style} /> <a href="https://www.linkedin.com/in/richard-pius-chua-624a45272/"className='myLinkp'>Linkedin</a>
+                        <BsLinkedin style={style} /> <a href="https://www.linkedin.com/in/richard-pius-chua-624a45272/" className='myLinkp'>Linkedin</a>
                     </li>
                     <li className='myLink'>
                         <BsGithub style={style} /> <a href="https://github.com/piusmons" className='myLinkp'>Github</a>

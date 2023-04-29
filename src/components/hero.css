@@ -96,12 +96,12 @@
     }
     
     .title {
-        font-size: 45px;
+        font-size: 18px;
         margin-left: 100px;
         
     }
     .subTitle {
-        font-size: 20px;
+        font-size: 10px;
         margin-left: 100px;
         
     }
@@ -117,7 +117,23 @@
         align-items: center;
     }
 
+    .myLinkUl {
+        display: flex;
+        flex-direction: column;
+        
+    }
+   
+    .myLinkp {
+        
+        
+        font-size: 11px;
+        
+    }
     
+    .techIcons {
+        font-size: 12px;
+    }
+
 
 
 }
