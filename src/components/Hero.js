@@ -2,6 +2,7 @@ import './hero.css'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import {SiJavascript, SiCss3, SiFirebase, } from 'react-icons/si'
 import {DiHtml5, DiNodejs, DiMongodb, DiPython, DiReact} from 'react-icons/di'
+import {SiMui} from "react-icons/si";
 
 const style = {color: "gold", fontSize: "2em"}
 export default function Hero() {
@@ -50,7 +51,9 @@ export default function Hero() {
                     <div className='slide'>
                         <DiReact style={style} /> <p>React</p>
                     </div>  
-
+                    <div className='slide'>
+                        <SiMui style={style} /> <p>Material UI</p>
+                    </div>
                     
                 </div>
                </div>
